@@ -1,0 +1,30 @@
+{
+  "name": "receipt-ocr-app",
+  "version": "1.0.0",
+  "description": "System for processing scanned receipts automatically and extract relevant details from PDF receipts using OCR/AI techniques and store the extracted data in a structured format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubham007-tech/receipt-ocr-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shubham007-tech/receipt-ocr-app/issues"
+  },
+  "homepage": "https://github.com/Shubham007-tech/receipt-ocr-app#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^1.4.5-lts.2",
+    "pdf-parse": "^1.1.1",
+    "sqlite3": "^5.1.7",
+    "tesseract.js": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
